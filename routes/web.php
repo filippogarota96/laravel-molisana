@@ -155,6 +155,5 @@ Route::get('/', function () {
         'corte' => $corta,
         'lunga' => $lunga,
         'cortissima' => $cortissima,
-
     ]);
 });

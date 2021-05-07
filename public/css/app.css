@@ -36,8 +36,41 @@
   background-color: #B2E5FC;
 }
 
+.footer-left {
+  width: 34%;
+}
+
+footer {
+  padding-top: 100px;
+}
+footer ul {
+  list-style: none;
+  font-size: 20px;
+  color: #848D9B;
+}
+footer h3 {
+  font-size: 30px;
+}
+
+.footer-right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.footer_cnt {
+  display: flex;
+}
+
+.list__item {
+  width: 50%;
+}
+
 main {
   margin-top: 20px;
+  background-image: url("../images/fondo-pag-speciali.jpg");
+  padding: 50px 0;
 }
 
 .cnt__cards {
@@ -57,4 +90,5 @@ h2 {
   font-size: 30px;
   text-transform: uppercase;
   margin: 20px 0;
+  color: #002D73;
 }
