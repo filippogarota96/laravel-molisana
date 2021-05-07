@@ -1,0 +1,27 @@
+
+.logo {
+  text-align: center;
+  margin: 50px 0;
+  img {
+    width: 250px;
+  }
+}
+
+.main-nav {
+  text-align: center;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        padding: 15px;
+      }
+  }
+}
+
+.active {
+  background-color: $secondary_color;
+}
