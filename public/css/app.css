@@ -37,7 +37,24 @@
 }
 
 main {
-  background-color: cadetblue;
-  height: 800px;
   margin-top: 20px;
+}
+
+.cnt__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cnt__cards .card {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+.cnt__cards .card img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 20px 0;
 }
