@@ -35,3 +35,9 @@
 .active {
   background-color: #B2E5FC;
 }
+
+main {
+  background-color: cadetblue;
+  height: 800px;
+  margin-top: 20px;
+}

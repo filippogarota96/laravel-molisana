@@ -18,12 +18,13 @@
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#">Prodotti</a></li>
           <li><a href="#">News</a></li>
-
         </ul>
       </nav>
     </div>
   </header>
-  <main></main>
+  <main>
+    
+  </main>
   <footer></footer>
 </body>
 </html>
