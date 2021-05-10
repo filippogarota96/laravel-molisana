@@ -14,7 +14,7 @@
           <div class="cnt__cards">
             @foreach ($lunga as $pasta)
               <div class="card">
-                <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+               <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
               </div>  
             @endforeach
           </div>
@@ -26,7 +26,7 @@
           <div class="cnt__cards">
           @foreach ($corte as $pasta)
               <div class="card">
-                <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+                <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
               </div>  
           @endforeach
         </section>
@@ -35,7 +35,7 @@
           <div class="cnt__cards">
           @foreach ($cortissima as $pasta)
               <div class="card">
-                <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+                <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
               </div>  
           @endforeach
         </section>
