@@ -1,9 +1,12 @@
 main {
   margin-top: 20px;
-  background-image: url('../images/fondo-pag-speciali.jpg');
   padding: 50px 0;
 }
 
+.bg-img {
+  background-image: url('../images/fondo-pag-speciali.jpg');
+  width: 100%;
+}
 .cnt__cards {
   display: flex;
   flex-wrap: wrap;
@@ -23,4 +26,15 @@ h2 {
   text-transform: uppercase;
   margin: 20px 0;
   color: $title_color;
+}
+
+.prodotto {
+  background: $product_bg;
+     img {
+      width: 100%;
+     }
+     h1 {
+      text-align: center;
+      color:$main_color;
+     }
 }

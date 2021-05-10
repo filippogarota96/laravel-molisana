@@ -69,8 +69,12 @@ footer h3 {
 
 main {
   margin-top: 20px;
-  background-image: url("../images/fondo-pag-speciali.jpg");
   padding: 50px 0;
+}
+
+.bg-img {
+  background-image: url("../images/fondo-pag-speciali.jpg");
+  width: 100%;
 }
 
 .cnt__cards {
@@ -90,5 +94,16 @@ h2 {
   font-size: 30px;
   text-transform: uppercase;
   margin: 20px 0;
+  color: #002D73;
+}
+
+.prodotto {
+  background: #B8DAE6;
+}
+.prodotto img {
+  width: 100%;
+}
+.prodotto h1 {
+  text-align: center;
   color: #002D73;
 }

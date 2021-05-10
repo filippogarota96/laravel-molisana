@@ -10,10 +10,8 @@
 <body>
   @include('parts.header')
   <main>
-    <div class="container">
      {{-- //inseriamo le informazioni dinamiche. --}}
      @yield('content')
-    </div>
   </main>
   @include('parts.footer')
 </body>
