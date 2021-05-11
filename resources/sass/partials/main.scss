@@ -1,10 +1,7 @@
-main {
-  margin-top: 20px;
-  padding: 50px 0;
-}
 
 .bg-img {
   background-image: url('../images/fondo-pag-speciali.jpg');
+  padding: 20px;
   width: 100%;
 }
 .cnt__cards {
@@ -13,6 +10,15 @@ main {
     .card {
       width: calc((100% / 3) - 20px);
       margin: 10px;
+
+      @media screen and (max-width: 768px) {
+         width: calc((100% / 2 ) - 20px);
+      }
+
+       @media screen and (max-width: 500px) {
+         width: 100%;
+      }
+
       img {
         display: block;
         width: 100%;
@@ -30,6 +36,7 @@ h2 {
 
 .prodotto {
   background: $product_bg;
+  position: relative;
      img {
       width: 100%;
      }
@@ -37,4 +44,26 @@ h2 {
       text-align: center;
       color:$main_color;
      }
+    p {
+      font-size: 20px;
+      padding: 0 100px;
+      padding-bottom: 40px;
+    }
+
+    &-chevron {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+        &.left {
+          left: 30px;
+        }
+        &.right {
+          right: 30px;
+        }
+        a {
+          padding: 15px;
+          background-color: blanchedalmond;
+          border-radius: 50%;
+        }
+    }
 }
